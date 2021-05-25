@@ -54,5 +54,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 <br><br>
 
-# 
+# Theory
+
+## 
   
