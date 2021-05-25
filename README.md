@@ -9,7 +9,9 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 <Background>
 1. [난독화](#)
-  
+
+  <br>
+
 <Theory>
 1. Installation
 
