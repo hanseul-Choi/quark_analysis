@@ -1,7 +1,7 @@
 # Quark
 
 An Obfuscation-Neglect Android Malware Scoring System <br>
-(난독화를 무시하여 악성 코드 점수 채점 시스템)
+(난독화를 무시하는 악성 코드 점수 채점 시스템)
 
 <br>
 
