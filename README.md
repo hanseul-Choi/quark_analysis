@@ -7,13 +7,12 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 ## 목차
 
-<Background>
+### Background
   
 1. [난독화](#난독화)
 
-<br>
+### Theory
 
-<Theory>
 1. Installation
 
 <br>
