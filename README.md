@@ -13,7 +13,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 ### Theory
 
-1. Installation
+1. [Installation](#Installation)
 
 <br>
 
@@ -56,5 +56,11 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 # Theory
 
-## 
+## Installation
+추천 운영체제는 devian linux이지만, 본 설치는 ubuntu linux를 통해 진행하였다. <br>
+먼저 가상머신인 VM 머신을 다운받는다. https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+<br> 작성자는 vmware workstaion pro 16버전을 이용하였다. <br>
+그 후, ubuntu linux 사이트에 접속하여 ubuntu 20.04LTS를 다운받는다. https://ubuntu.com/ <br>
+
+
   
