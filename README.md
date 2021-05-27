@@ -11,7 +11,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
   
 1. [난독화](#난독화)
 
-### Theory
+### Quark
 
 1. [Installation](#Installation)
 
@@ -54,7 +54,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 <br><br>
 
-# Theory
+# Quark
 
 ## Installation
 추천 운영체제는 devian linux이지만, 본 설치는 ubuntu linux를 통해 진행하였다. <br>
