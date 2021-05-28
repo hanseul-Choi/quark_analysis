@@ -144,4 +144,4 @@ sudo docker run hello-world
 <br><br>
 
 ![hello-world](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_hello_world.PNG?raw=true)
-docker hello-world 
+docker hello-world 실행
