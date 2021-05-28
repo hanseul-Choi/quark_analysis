@@ -61,7 +61,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 ### vm install
 먼저 가상머신인 VM 머신을 다운받는다. https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
-<br> 작성자는 vmware workstaion pro 16버전을 이용하였다. <br>
+<br> 작성자는 vmware workstaion pro 16버전을 이용하였다. <br><br>
 
 ### ubuntu linux install
 그 후, ubuntu linux 사이트에 접속하여 ubuntu 20.04LTS를 다운받는다. https://ubuntu.com/ <br>
@@ -70,7 +70,7 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 
 ![ubuntu](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
 우분투 접속화면
-<br>
+<br><br>
 
 ### docker install
 docker는 CE 버전으로 다운받는다. (출처: https://docs.docker.com/engine/install/ubuntu/) <br>
