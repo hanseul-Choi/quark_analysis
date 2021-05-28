@@ -75,14 +75,16 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 ### docker install
 docker는 CE 버전으로 다운받는다. (출처: https://docs.docker.com/engine/install/ubuntu/) <br>
 <br>
-먼저 우분투 터미널을 켠다. <br>
+우분투 터미널로 설치를 진행한다. <br>
+먼저 apt를 update 해준다. <br>
 
 <pre>
 <code>
 sudo apt-get update
 </code>
 </pre>
-먼저 apt를 update 해준다. <br>
+
+docker를 설치하기 위한 라이브러리들을 install한다. <br>
 
 <pre>
 <code>
@@ -94,14 +96,16 @@ sudo apt-get install \
      lsb-release
 </code>
 </pre>
-docker를 설치하기 위한 라이브러리들을 install한다. <br>
+
+gpg를 등록하는데, 여기서 gpg는 암호화진행할 때 사용되는 키이다. <br>
 
 <pre>
 <code>
 url -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 </code>
 </pre>
-gpg를 등록하는데, 여기서 gpg는 암호화진행할 때 사용되는 키이다. <br>
+
+docker repository를 추가해준다.<br>
 
 <pre>
 <code>
@@ -110,28 +114,32 @@ echo \
    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 </code>
 </pre>
-docker repository를 추가해준다.<br>
+
+한번더 update를 진행하고, <br>
 
 <pre>
 <code>
 sudo apt-get update
 </code>
 </pre>
-한번더 update를 진행하고, <br>
+
+docker ce를 설치한다. <br>
 
 <pre>
 <code>
 sudo apt-get install -y docker-ce
 </code>
 </pre>
-docker ce를 설치한다. <br>
+
+마지막으로 docker의 설치여부를 확인하기 위해 hello-world를 run 시킨다. <br>
 
 <pre>
 <code>
 sudo docker run hello-world
 </code>
 </pre>
-마지막으로 docker의 설치여부를 확인하기 위해 hello-world를 run 시킨다. <br>
+
+<br>
 다음과 같이 나온다면 정상적인 설치가 완료된 것이다. 
 <br>
 
