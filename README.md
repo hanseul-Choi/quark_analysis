@@ -128,9 +128,7 @@ sudo docker run hello-world
 </pre>
 마지막으로 docker의 설치여부를 확인하기 위해 hello-world를 run 시킨다. <br>
 다음과 같이 나온다면 정상적인 설치가 완료된 것이다. 
+<br>
 
-
-
-
-
+![hello-world](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_hello_world.PNG?raw=true)
 
