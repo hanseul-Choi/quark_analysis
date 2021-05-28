@@ -65,6 +65,6 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 <br>
 
 ![ubuntu](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
-
+우분투 접속화면
 <br>
   
