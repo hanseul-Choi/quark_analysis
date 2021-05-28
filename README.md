@@ -67,4 +67,19 @@ An Obfuscation-Neglect Android Malware Scoring System <br>
 ![ubuntu](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
 우분투 접속화면
 <br>
-  
+
+docker는 CE 버전으로 다운받는다. (출처: https://docs.docker.com/engine/install/ubuntu/) <br>
+<br>
+먼저 우분투 터미널을 켠다. <br>
+
+<pre>
+<code>
+sudo apt-get update
+sudo apt-get install \
+>     apt-transport-https \
+>     ca-certificates \
+>     curl \
+>     gnupg \
+>     lsb-release
+</code>
+</pre>
