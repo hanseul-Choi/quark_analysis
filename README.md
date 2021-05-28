@@ -141,7 +141,7 @@ sudo docker run hello-world
 
 <br>
 다음과 같이 나온다면 정상적인 설치가 완료된 것이다. 
-<br>
+<br><br>
 
 ![hello-world](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_hello_world.PNG?raw=true)
-
+docker hello-world 
