@@ -215,9 +215,11 @@ sudo docker build . -t quark
 <pre>
 <code>
 sudo docker run -v $(pwd):/tmp -it quark bash
+cd /tmp
+quark -a Ahmyth.apk -s
 </code>
 </pre>
 
 다음과 같은 화면이 나오면 정상적으로 quark가 설치된 것이다. <br>
 
-![docker_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_quark.PNG?raw=true)
+![docker_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_quark.png?raw=true)
