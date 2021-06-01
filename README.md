@@ -197,7 +197,7 @@ quark --help
 
 다음과 같은 화면이 나온다면 quark가 정상적으로 설치된 것이다. <br>
 
-![terminal_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
+![terminal_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/terminal_quark.PNG?raw=true)
 
 ### quark installation and execution with docker
 
@@ -220,4 +220,4 @@ sudo docker run -v $(pwd):/tmp -it quark bash
 
 다음과 같은 화면이 나오면 정상적으로 quark가 설치된 것이다. <br>
 
-![docker_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
+![docker_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_quark.PNG?raw=true)
