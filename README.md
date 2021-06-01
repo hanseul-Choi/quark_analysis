@@ -199,6 +199,8 @@ quark --help
 
 ![terminal_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/terminal_quark.PNG?raw=true)
 
+<br><br>
+
 ### quark installation and execution with docker
 
 docker에서는 docker환경에서 설치하면 실행이 가능하다. <br>
