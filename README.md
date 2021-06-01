@@ -77,6 +77,9 @@ docker는 CE 버전으로 다운받는다. (출처: https://docs.docker.com/engi
 <br>
 우분투 터미널로 설치를 진행한다. <br>
 먼저 apt를 update 해준다. <br>
+* sudo는 관리자 명령으로 실행한다는 의미이다.
+* terminal여는 단축키는 ctrl + alt + t이다.
+* 해당 코드를 ctrl + c로 복사하고 terminal에서는 shift + insert를 통해 붙여넣기가 가능하다.
 
 <pre>
 <code>
@@ -145,3 +148,76 @@ sudo docker run hello-world
 
 ![hello-world](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/docker_hello_world.PNG?raw=true)
 <br>docker hello-world 실행
+<br><br>
+
+### quark installation and execution with terminal
+먼저 quark의 실행환경을 위해 jre와 jdk를 설치한다.<br>
+
+<pre>
+<code>
+sudo apt-get install openjdk-8-jre
+sudo apt-get install openjdk-8-jdk
+</code>
+</pre>
+
+그 후 pip를 통해 quark를 설치하기위해 pip를 설치하고 quark engine을 설치한다.<br>
+
+<pre>
+<code>
+sudo apt install python3-pip
+pip3 install -U quark-engine
+</code>
+</pre>
+
+이제 quark를 git code에서 받아온다. <br>
+
+<pre>
+<code>
+git clone https://github.com/quark-engine/quark-engine.git
+</code>
+</pre>
+
+pipenv shell을 설치하기 위해 pipenv와 --skip-lock을 설치한다.<br>
+
+<pre>
+<code>
+sudo apt install pipenv
+pipenv install --skip-lock
+</code>
+</pre>
+
+Terminal 환경에서 quark를 실행할 수 있다. <br>
+
+<pre>
+<code>
+pipenv shell
+quark --help
+</code>
+</pre>
+
+다음과 같은 화면이 나온다면 quark가 정상적으로 설치된 것이다. <br>
+
+![terminal_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
+
+### quark installation and execution with docker
+
+docker에서는 docker환경에서 설치하면 실행이 가능하다. <br>
+
+<pre>
+<code>
+sudo docker build . -t quark
+</code>
+</pre>
+
+다음과 같이 quark 정상 설치 여부를 확인할 수 있다. <br>
+* 여기서 ${pwd}는 자신의 우분투 password를 넣으면 된다.
+
+<pre>
+<code>
+sudo docker run -v $(pwd):/tmp -it quark bash
+</code>
+</pre>
+
+다음과 같은 화면이 나오면 정상적으로 quark가 설치된 것이다. <br>
+
+![docker_quark](https://github.com/hanseul-Choi/quark_analysis/blob/main/img/ubuntu.PNG?raw=true)
